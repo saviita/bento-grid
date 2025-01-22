@@ -1,0 +1,70 @@
+* {
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+body {
+    background-color: black;
+    color: whitesmoke;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.main {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(14, 1fr);
+}
+
+.mode {
+    grid-column: 1/4;
+    grid-row: 1/3;
+}
+
+.power {
+    grid-column: 4/6;
+    grid-row: 1/3;
+}
+
+.afib {
+    grid-column: 1/3;
+    grid-row: 3/5;
+}
+
+.charge {
+    grid-column: 3/6;
+    grid-row: 3/4;
+}
+
+.oxygen {
+    grid-column: 3/6;
+    grid-row: 4/5;
+}
+
+.image {
+    grid-column: 1/6;
+    grid-row: 5/10;
+}
+
+.crush {
+    grid-column: 1/6;
+    grid-row: 10/12;
+}
+
+.connections {
+    grid-column: 1/4;
+    grid-row: 12/14;
+}
+
+.calls {
+    grid-column: 4/6;
+    grid-row: 12/14;
+}
+
+.alert {
+    grid-column: 1/6;
+    grid-row: 14/16;
+}
